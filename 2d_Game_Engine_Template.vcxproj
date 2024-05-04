@@ -156,6 +156,12 @@
     <ClInclude Include="libs\imgui\imstb_rectpack.h" />
     <ClInclude Include="libs\imgui\imstb_textedit.h" />
     <ClInclude Include="libs\imgui\imstb_truetype.h" />
+    <ClInclude Include="src\Components\CBBox.h" />
+    <ClInclude Include="src\Components\CName.h" />
+    <ClInclude Include="src\Components\CShape.h" />
+    <ClInclude Include="src\Components\CTransform.h" />
+    <ClInclude Include="src\Entity\Entity.hpp" />
+    <ClInclude Include="src\Entity\EntityManager.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

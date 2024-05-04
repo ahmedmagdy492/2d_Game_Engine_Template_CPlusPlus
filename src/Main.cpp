@@ -1,5 +1,6 @@
 #include <SFML/Graphics.hpp>
 
+#include "Entity/EntityManager.hpp";
 
 int main() {
 	sf::RenderWindow window(sf::VideoMode(800, 600), "2d Game Engine Template");
