@@ -68,6 +68,10 @@ public:
 		return m_entities;
 	}
 
+	bool containsTag(const std::string& tag) {
+		return m_entitiesByTag.find(tag) != m_entitiesByTag.end();
+	}
+
 	EntityVec& getEntities(const std::string& tag) {
 		assert(m_entitiesByTag.find(tag) != m_entitiesByTag.end());
 		return m_entitiesByTag[tag];
